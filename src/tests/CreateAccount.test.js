@@ -19,7 +19,7 @@ import UserContext from "../context";
 
 test('User Can Create account', () => {
   render(
-  <UserContext.Provider value={{users:[{name:'abel', email:'abel@mit.edu', password:'secret', balance:100}], currentUser:''}}>
+  <UserContext.Provider value={{users:[], currentUser:''}}>
   <CreateAccount />
   </UserContext.Provider>
   );
