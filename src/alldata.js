@@ -10,7 +10,7 @@ const AllData = () => {
         bgcolor="light"
         txtcolor="dark"
         header="All Data"
-        maxWidth="28rem"
+        maxWidth="42rem"
         body={<Table users={ctx.users} />}
       />
     </>
